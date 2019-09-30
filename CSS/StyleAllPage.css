@@ -1,0 +1,80 @@
+* {
+padding: 0;
+margin: 0;
+}
+body {
+    background-image: url(../img/Sherp_logo.png);
+    background-size: 250px;
+}
+
+.text {
+    text-align: center;
+    position: absolute;
+    left: 540px;
+}
+
+#pic {
+    position: absolute;
+    top: 50px;
+    left: 1px;
+}
+#last {
+    position: absolute;
+    top: 935px;
+    left: 915px;
+}
+#last1 {
+    position: absolute;
+    top: 1300px;
+    left: 450px;
+}
+
+#table {
+    border: 1px;
+    position: absolute;
+    top: 50px;
+    left: 1000px;
+}
+#table_header {
+    background-color: black;
+}
+#table1 {
+    width: 35px;
+}
+#table2 {
+    width: 130px;
+}
+#table3 {
+    width: 145px;
+}
+#table4 {
+    width: 50px;
+}
+#table5 {
+    width: 40px;
+}
+#table6 {
+    width: 70px;
+    text-align: center;
+}
+
+p {
+    color: #ff0000;
+}
+tr {
+    color: #ff6a00;
+}
+
+    tr:hover {
+        background: #000000; /* Цвет фона под ссылкой */
+        color: #ff0000; /* Цвет ссылки */
+    }
+
+.to-be-changed {
+    color: #ff6a00;
+}
+
+    .to-be-changed:target {
+        background: content-box black;
+        color: red;
+    }

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#box {
+    color: rgb(255, 0, 136);
+    width: 500px;
+    height: 200px;
+    background-image: url(img/Bolotohod-SHerp-na-prirode-osenyu.jpg);
+
+}
+p {
+    background-color: blue;
+}

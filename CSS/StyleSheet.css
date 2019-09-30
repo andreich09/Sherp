@@ -1,0 +1,131 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-image: url(../img/page_image/SHERP_APOCALIPSIS.jpg);
+    background-color: aquamarine;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: black;
+}
+
+ul#navmenu-v,
+ul#navmenu-v li,
+ul#navmenu-v ul {
+    margin: 1px;
+    border: 0 none;
+    padding: 0;
+    width: 180px;
+    list-style: none;
+    border-radius: 5px;
+}
+
+ul#navmenu-v:after {
+    clear: both;
+    display: block;
+    font: 1px/0px serial;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+}
+
+ul#navmenu-v li {
+    float: left;
+    display: block !important;
+    display: inline;
+    position: relative;
+    border: #ff6a00 1px solid;
+}
+
+ul#navmenu-v li ul li {
+    border: none;
+    border-bottom: #FFFFFF 1px solid;
+}
+
+/* Root Menu */
+ul#navmenu-v a {
+    padding: 0 6px;
+    display: block;
+    background: #ff6a00;
+    color: #FFFFFF;
+    font: bold 12px/28px Verdana, Arial;
+    text-decoration: none;
+    height: auto !important;
+    height: 1%;
+    border-radius: 5px;
+}
+
+
+ul#navmenu-v a:hover,
+ul#navmenu-v li:hover a,
+ul#navmenu-v li.iehover a {
+    background: #FFFFFF;
+    color: #000000;
+}
+
+/* 2nd Menu */
+ul#navmenu-v li:hover li a,
+ul#navmenu-v li.iehover li a {
+    background: #ff6a00;
+    color: #FFFFFF;
+    border: #ff6a00 1px solid;
+}
+
+
+ul#navmenu-v li:hover li a:hover,
+ul#navmenu-v li:hover li:hover a,
+ul#navmenu-v li.iehover li a:hover,
+ul#navmenu-v li.iehover li.iehover a {
+    background: #FFFFFF;
+    color: #ff6a00;
+    border: #ff6a00 1px solid;
+}
+
+
+
+ul#navmenu-v ul,
+ul#navmenu-v ul ul,
+ul#navmenu-v ul ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 177px;
+}
+
+
+ul#navmenu-v li:hover ul ul,
+ul#navmenu-v li:hover ul ul ul,
+ul#navmenu-v li.iehover ul ul,
+ul#navmenu-v li.iehover ul ul ul {
+    display: none;
+}
+
+ul#navmenu-v li:hover ul,
+ul#navmenu-v ul li:hover ul,
+ul#navmenu-v ul ul li:hover ul,
+ul#navmenu-v li.iehover ul,
+ul#navmenu-v ul li.iehover ul,
+ul#navmenu-v ul ul li.iehover ul {
+    display: block;
+}
+
+a img {
+    display: none;
+    position: absolute;
+    top: 0;
+    border: 0;
+    left: 100%;
+}
+
+a:hover img {
+    display: block;
+}
